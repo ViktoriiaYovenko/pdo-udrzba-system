@@ -10,22 +10,22 @@ Systém slouží k evidenci poruch zařízení, sledování historie oprav a pod
 
 ## Hlavní části systému
 
-| Modul              | Popis |
-|--------------------|------|
-| Evidence zařízení  | Seznam všech zařízení |
-| Evidence poruch    | Záznam poruch |
-| Evidence oprav     | Historie oprav |
-| Analytický modul   | Vyhodnocení dat |
+| Modul | Popis |
+| :--- | :--- |
+| Evidence zařízení | Seznam všech zařízení |
+| Evidence poruch | Záznam poruch |
+| Evidence oprav | Historie oprav |
+| Analytický modul | Vyhodnocení dat |
 
 ---
 
 ## Architektura systému
 
-| Vrstva             | Funkce |
-|--------------------|-------|
-| Uživatelská        | Rozhraní pro uživatele |
-| Aplikační          | Logika systému |
-| Datová             | Ukládání dat |
+| Vrstva | Funkce |
+| :--- | :--- |
+| Uživatelská | Rozhraní pro uživatele |
+| Aplikační | Logika systému |
+| Datová | Ukládání dat |
 
 > [!IMPORTANT]
 > Kvalita výstupů systému závisí na správnosti a úplnosti zadaných dat.
@@ -35,12 +35,11 @@ Systém slouží k evidenci poruch zařízení, sledování historie oprav a pod
 ## Analytika
 
 Systém sleduje:
+- četnost poruch
+- dobu oprav
+- opakování problémů
 
-- četnost poruch  
-- dobu oprav  
-- opakování problémů  
-
-Výstup: doporučení preventivní údržby
+**Výstup:** doporučení preventivní údržby
 
 > [!NOTE]
 > Analytický modul využívá historická data a jednoduchá pravidla, nikoliv pokročilé algoritmy.
@@ -48,25 +47,23 @@ Výstup: doporučení preventivní údržby
 ---
 
 ## Přínosy systému
+- lepší přehled o poruchách
+- podpora prevence
+- efektivnější provoz
 
-- lepší přehled o poruchách  
-- podpora prevence  
-- efektivnější provoz  
+---
 
 ## ⚙️ Princip fungování systému
 
-Systém funguje na základě zadávání a zpracování dat o poruchách.
+Systém funguje na základě zadávání a zpracování dat o poruchách:
 
-1. Uživatel zadá poruchu zařízení
-2. Systém uloží data do databáze
-3. Po opravě jsou doplněny informace o zásahu
-4. Analytický modul vyhodnocuje historická data
-5. Na základě pravidel systém generuje doporučení
+1. Uživatel zadá poruchu zařízení.
+2. Systém uloží data do databáze.
+3. Po opravě jsou doplněny informace o zásahu.
+4. Analytický modul vyhodnocuje historická data.
+5. Na základě pravidel systém generuje doporučení.
 
-## Grafický přehled procesu (Workflow)
-
-> [!NOTE]
-> Systém neprovádí automatická rozhodnutí, pouze doporučuje další kroky.
+---
 
 ## 📊 Grafický přehled procesu (Workflow)
 
