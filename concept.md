@@ -1,37 +1,45 @@
-
 # Concept dokumentace
 
 ## Přehled systému
-Navrhovaný systém slouží k evidenci poruch zařízení, sledování historie oprav a podpoře rozhodování v oblasti údržby.
+Systém slouží k evidenci poruch zařízení, sledování historie oprav a podpoře rozhodování.
 
-Cílem je zlepšit přehled o technickém stavu zařízení a snížit závislost na individuální zkušenosti pracovníků.
+---
 
 ## Hlavní části systému
 
-### Evidence zařízení
-Systém obsahuje seznam všech zařízení, například šicích strojů nebo dřevoobráběcích strojů.
+| Modul              | Popis |
+|--------------------|------|
+| Evidence zařízení  | Seznam všech zařízení |
+| Evidence poruch    | Záznam poruch |
+| Evidence oprav     | Historie oprav |
+| Analytický modul   | Vyhodnocení dat |
 
-### Evidence poruch
-Uživatelé mohou zapisovat poruchy, jejich popis a závažnost.
-
-### Evidence oprav
-Každá porucha může být doplněna o informace o opravě.
-
-### Analytický modul
-Systém vyhodnocuje:
-- četnost poruch
-- opakování problémů
-- dobu oprav
-
-Na základě těchto dat doporučuje preventivní zásahy.
+---
 
 ## Architektura systému
-Systém je rozdělen do tří vrstev:
-- uživatelská vrstva (rozhraní)
-- aplikační vrstva (logika)
-- datová vrstva (uložení dat)
+
+| Vrstva             | Funkce |
+|--------------------|-------|
+| Uživatelská        | Rozhraní pro uživatele |
+| Aplikační          | Logika systému |
+| Datová             | Ukládání dat |
+
+---
+
+## Analytika
+
+Systém sleduje:
+
+- četnost poruch  
+- dobu oprav  
+- opakování problémů  
+
+Výstup: doporučení preventivní údržby
+
+---
 
 ## Přínosy systému
-- lepší přehled o poruchách
-- podpora preventivní údržby
-- efektivnější plánování provozu
+
+- lepší přehled o poruchách  
+- podpora prevence  
+- efektivnější provoz  
