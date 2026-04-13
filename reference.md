@@ -37,6 +37,9 @@
 | Zásah  | Oprava |
 | Délka  | Čas opravy |
 
+> [!IMPORTANT]
+> Každá oprava musí být přiřazena ke konkrétní poruše.
+
 ---
 
 ## Pravidla vyhodnocování
@@ -46,6 +49,9 @@
 | Porucha > 2× za měsíc | Doporučení kontroly |
 | Dlouhá oprava | Rizikové zařízení |
 | Časté poruchy | Doporučení údržby |
+
+> [!NOTE]
+> Pravidla slouží jako orientační doporučení pro uživatele.
 
 ---
 
@@ -64,3 +70,6 @@ Systém hodnotí:
 | Nízké | Nízká |
 | Střední | Střední |
 | Vysoké | Vysoká |
+
+> [!IMPORTANT]
+> Zařízení s vysokou prioritou by měla být řešena přednostně.
