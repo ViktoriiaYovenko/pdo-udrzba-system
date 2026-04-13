@@ -65,3 +65,15 @@ Systém funguje na základě zadávání a zpracování dat o poruchách.
 
 > [!NOTE]
 > Systém neprovádí automatická rozhodnutí, pouze doporučuje další kroky.
+>
+> ---
+
+## Slovník pojmů
+
+| Termín | Význam |
+|--------|--------|
+| **Preventivní údržba** | Předem plánované servisní úkony zaměřené na předcházení poruchám zařízení. |
+| **Závažnost poruchy** | Kategorizace dopadu poruchy na provoz (např. nízká, střední, vysoká). |
+| **Analytický modul** | Součást systému, která na základě historických dat (četnost, délka oprav) generuje doporučení. |
+| **Stav zařízení** | Aktuální provozní status stroje (např. v provozu, v opravě, vyřazeno). |
+| **Příčina poruchy** | Specifikace důvodu vzniku problému (např. opotřebení, lidská chyba, technická závada). |
