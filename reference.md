@@ -1,42 +1,66 @@
-
 # Reference dokumentace
+
+---
 
 ## Datový model
 
 ### Zařízení
-- ID
-- název
-- typ
-- stav
+
+| Atribut | Popis |
+|--------|------|
+| ID     | Identifikátor |
+| Název  | Název zařízení |
+| Typ    | Typ zařízení |
+| Stav   | Aktuální stav |
+
+---
 
 ### Porucha
-- ID
-- zařízení
-- datum
-- popis
-- závažnost
+
+| Atribut | Popis |
+|--------|------|
+| ID     | Identifikátor |
+| Zařízení | Vazba na zařízení |
+| Datum  | Datum vzniku |
+| Popis  | Popis problému |
+| Závažnost | Úroveň problému |
+
+---
 
 ### Oprava
-- ID
-- porucha
-- příčina
-- zásah
-- délka opravy
+
+| Atribut | Popis |
+|--------|------|
+| ID     | Identifikátor |
+| Porucha | Vazba |
+| Příčina | Důvod poruchy |
+| Zásah  | Oprava |
+| Délka  | Čas opravy |
+
+---
 
 ## Pravidla vyhodnocování
 
-- Pokud se porucha opakuje více než 2× za měsíc → doporučení kontroly
-- Pokud opravy trvají dlouho → zařízení je rizikové
-- Pokud je zařízení často poruchové → doporučení údržby
+| Podmínka | Akce |
+|---------|-----|
+| Porucha > 2× za měsíc | Doporučení kontroly |
+| Dlouhá oprava | Rizikové zařízení |
+| Časté poruchy | Doporučení údržby |
+
+---
 
 ## Prioritizace
 
-Systém určuje prioritu podle:
-- četnosti poruch
-- délky oprav
-- závažnosti
+Systém hodnotí:
 
-Výsledek:
-- nízká priorita
-- střední priorita
-- vysoká priorita
+- četnost poruch  
+- délku oprav  
+- závažnost  
+
+### Výstup:
+
+| Skóre | Priorita |
+|------|---------|
+| Nízké | Nízká |
+| Střední | Střední |
+| Vysoké | Vysoká |
