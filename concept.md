@@ -63,5 +63,17 @@ Systém funguje na základě zadávání a zpracování dat o poruchách.
 4. Analytický modul vyhodnocuje historická data
 5. Na základě pravidel systém generuje doporučení
 
+## Grafický přehled procesu (Workflow)
+
+```mermaid
+graph TD
+    A[Vznik poruchy на zařízení] --> B[Založení záznamu v systému]
+    B --> C[Oprava a doplnění údajů]
+    C --> D[Uzavření opravy]
+    D --> E[Analýza dat a doporučení]
+    
+    style A fill:#f9f,stroke:#333,stroke-width:2px
+    style E fill:#00ff00,stroke:#333,stroke-width:2px
+
 > [!NOTE]
 > Systém neprovádí automatická rozhodnutí, pouze doporučuje další kroky.
