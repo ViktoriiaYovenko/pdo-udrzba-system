@@ -65,3 +65,6 @@ Systém funguje na základě zadávání a zpracování dat o poruchách:
 
 ---
 
+## Grafický přehled procesu (Workflow)
+
+![Workflow procesu](workflow.png)
