@@ -1,36 +1,49 @@
-
 # Procedurální dokumentace
 
-## Pracovní postup 1 – Založení poruchy
+---
 
-### Účel
+## 🔧 Pracovní postup 1 – Založení poruchy
+
+### 📌 Účel
 Zapsání nové poruchy do systému.
 
+### 👤 Role
+Správce provozu / administrativní pracovník
+
 ### Postup
-1. Uživatel se přihlásí do systému
-2. Otevře sekci Poruchy
-3. Klikne na „Nová porucha“
-4. Vybere zařízení
-5. Zadá popis poruchy
-6. Zvolí závažnost
-7. Uloží záznam
+
+| Krok | Akce |
+|------|------|
+| 1 | Přihlášení do systému |
+| 2 | Otevření sekce Poruchy |
+| 3 | Kliknutí na „Nová porucha“ |
+| 4 | Výběr zařízení |
+| 5 | Zadání popisu |
+| 6 | Nastavení závažnosti |
+| 7 | Uložení |
 
 ### Výstup
-V systému vznikne nový záznam poruchy.
+Nový záznam poruchy v systému
 
 ---
 
 ## Pracovní postup 2 – Uzavření opravy
 
 ### Účel
-Doplnění informací o opravě a uzavření poruchy.
+Uzavření poruchy a doplnění údajů o opravě
+
+### 👤 Role
+Údržbář / správce provozu
 
 ### Postup
-1. Uživatel otevře existující poruchu
-2. Zadá příčinu poruchy
-3. Popíše provedenou opravu
-4. Zadá délku opravy
-5. Označí poruchu jako uzavřenou
+
+| Krok | Akce |
+|------|------|
+| 1 | Otevření poruchy |
+| 2 | Zadání příčiny |
+| 3 | Popis opravy |
+| 4 | Zadání délky opravy |
+| 5 | Uzavření záznamu |
 
 ### Výstup
-Porucha je uzavřena a uložena v historii.
+Uzavřená porucha uložená v historii
