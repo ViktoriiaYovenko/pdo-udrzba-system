@@ -3,6 +3,9 @@
 ## Přehled systému
 Systém slouží k evidenci poruch zařízení, sledování historie oprav a podpoře rozhodování.
 
+> [!NOTE]
+> Systém je navržen jako podpůrný nástroj. Konečné rozhodnutí je vždy na uživateli.
+
 ---
 
 ## Hlavní části systému
@@ -24,6 +27,9 @@ Systém slouží k evidenci poruch zařízení, sledování historie oprav a pod
 | Aplikační          | Logika systému |
 | Datová             | Ukládání dat |
 
+> [!IMPORTANT]
+> Kvalita výstupů systému závisí na správnosti a úplnosti zadaných dat.
+
 ---
 
 ## Analytika
@@ -35,6 +41,9 @@ Systém sleduje:
 - opakování problémů  
 
 Výstup: doporučení preventivní údržby
+
+> [!NOTE]
+> Analytický modul využívá historická data a jednoduchá pravidla, nikoliv pokročilé algoritmy.
 
 ---
 
