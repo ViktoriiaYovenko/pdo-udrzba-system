@@ -2,9 +2,9 @@
 
 ---
 
-## 🔧 Pracovní postup 1 – Založení poruchy
+## Pracovní postup 1 – Založení poruchy
 
-### 📌 Účel
+### Účel
 Zapsání nové poruchy do systému.
 
 ### 👤 Role
