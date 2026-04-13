@@ -3,9 +3,6 @@
 ## Přehled systému
 Systém slouží k evidenci poruch zařízení, sledování historie oprav a podpoře rozhodování.
 
-> [!NOTE]
-> Systém je navržen jako podpůrný nástroj. Konečné rozhodnutí je vždy na uživateli.
-
 ---
 
 ## Hlavní části systému
