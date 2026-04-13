@@ -14,23 +14,26 @@ Správce provozu / administrativní pracovník
 
 | Krok | Akce |
 |------|------|
-| 1 | Přihlášení do systému |
-| 2 | Otevření sekce Poruchy |
-| 3 | Kliknutí na „Nová porucha“ |
-| 4 | Výběr zařízení |
-| 5 | Zadání popisu |
-| 6 | Nastavení závažnosti |
-| 7 | Uložení |
+| 1 | Přihlaste se do systému pomocí přihlašovacích údajů |
+| 2 | V hlavním menu klikněte na položku „Poruchy“ |
+| 3 | Klikněte na tlačítko „Nová porucha“ |
+| 4 | Ve formuláři vyberte zařízení ze seznamu |
+| 5 | Do pole „Popis“ zadejte stručný popis problému |
+| 6 | Vyberte úroveň závažnosti |
+| 7 | Klikněte na tlačítko „Uložit“ |
+
+> [!IMPORTANT]
+> Při zadávání poruchy vždy vyplňte všechna povinná pole. Neúplná data mohou ovlivnit analýzu systému.
 
 ### Výstup
-Nový záznam poruchy v systému
+Nový záznam poruchy je uložen v systému a je dostupný pro další zpracování.
 
 ---
 
 ## Pracovní postup 2 – Uzavření opravy
 
 ### Účel
-Uzavření poruchy a doplnění údajů o opravě
+Uzavření poruchy a doplnění údajů o opravě.
 
 ### 👤 Role
 Údržbář / správce provozu
@@ -39,11 +42,20 @@ Uzavření poruchy a doplnění údajů o opravě
 
 | Krok | Akce |
 |------|------|
-| 1 | Otevření poruchy |
-| 2 | Zadání příčiny |
-| 3 | Popis opravy |
-| 4 | Zadání délky opravy |
-| 5 | Uzavření záznamu |
+| 1 | Přihlaste se do systému |
+| 2 | Otevřete sekci „Poruchy“ |
+| 3 | Vyberte konkrétní poruchu ze seznamu |
+| 4 | Klikněte na „Detail“ nebo otevřete záznam |
+| 5 | Do pole „Příčina“ zadejte důvod poruchy |
+| 6 | Do pole „Oprava“ popište provedený zásah |
+| 7 | Zadejte délku opravy |
+| 8 | Klikněte na tlačítko „Uzavřít“ |
+
+> [!IMPORTANT]
+> Bez vyplnění příčiny poruchy nelze záznam uzavřít.
 
 ### Výstup
-Uzavřená porucha uložená v historii
+Porucha je uzavřena a uložena v historii systému.
+
+> [!NOTE]
+> Tyto údaje jsou následně využity analytickým modulem pro vyhodnocení.
