@@ -65,15 +65,17 @@ Systém funguje na základě zadávání a zpracování dat o poruchách.
 
 ## Grafický přehled procesu (Workflow)
 
+> [!NOTE]
+> Systém neprovádí automatická rozhodnutí, pouze doporučuje další kroky.
+
+## 📊 Grafický přehled procesu (Workflow)
+
 ```mermaid
 graph TD
-    A[Vznik poruchy на zařízení] --> B[Založení záznamu v systému]
+    A[Vznik poruchy na zařízení] --> B[Založení záznamu v systému]
     B --> C[Oprava a doplnění údajů]
     C --> D[Uzavření opravy]
     D --> E[Analýza dat a doporučení]
     
     style A fill:#f9f,stroke:#333,stroke-width:2px
     style E fill:#00ff00,stroke:#333,stroke-width:2px
-
-> [!NOTE]
-> Systém neprovádí automatická rozhodnutí, pouze doporučuje další kroky.
