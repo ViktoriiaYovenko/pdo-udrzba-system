@@ -85,3 +85,5 @@ Systém hodnotí:
 | **Analytický modul** | Součást systému, která na základě historických dat (četnost, délka oprav) generuje doporučení. |
 | **Stav zařízení** | Aktuální provozní status stroje (např. v provozu, v opravě, vyřazeno). |
 | **Příčina poruchy** | Specifikace důvodu vzniku problému (např. opotřebení, lidská chyba, technická závada). |
+
+[Menu](README.md)
