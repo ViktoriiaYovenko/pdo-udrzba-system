@@ -59,3 +59,5 @@ Porucha je uzavřena a uložena v historii systému.
 
 > [!NOTE]
 > Tyto údaje jsou následně využity analytickým modulem pro vyhodnocení.
+
+[Menu](README.md)
